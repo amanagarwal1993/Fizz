@@ -1,0 +1,10 @@
+    <form method="post">
+        <input name="n">
+        <input type="submit">
+    </form>
+
+    <ol>
+        {% for num in results %}
+            <li>{{num.n}}</li>
+        {% endfor %}
+    </ol>
